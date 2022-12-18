@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px opx 5px gainsboro;
+}
+#main>article{
+    height: 75px;
+    width: 60%;
+    border: 2px solid red;
+    display: flex;
+}
+#main>article>.Logo{
+    height: 75px;
+    width: 60%;
+    border: 2px solid red;
+    
+}
+#main>article>.Menu{
+    height: 75px;
+    width: 90%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main>article>.Button{
+    height: 75px;
+    width: 60%;
+    border: 2px solid red;
+    
+}
+#Menublock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
